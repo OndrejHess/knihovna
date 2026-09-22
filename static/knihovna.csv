@@ -1,0 +1,373 @@
+ID,ISBN,Název,Autor,Žánry,Police ID,Police Název,Rok,Vydavatel,Hodnocení
+401,9788085925029,"Já, písnička (2)",* antologie,"Literatura naučná, Učebnice a slovníky, Hudba a zpěv",1,Police 1: Sci-Fi & Kyberpunk,,"[{'@type': 'Organization', 'name': 'Music Cheb'}]",4.7
+404,9788085925036,"Já, písnička 3",* antologie,"Literatura naučná, Učebnice a slovníky, Hudba a zpěv",1,Police 1: Sci-Fi & Kyberpunk,,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",4.4
+406,9788085925036,"Já, písnička 4",* antologie,"Literatura naučná, Učebnice a slovníky, Hudba a zpěv",1,Police 1: Sci-Fi & Kyberpunk,,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",4.4
+400,9783625125303,Akustická kytara,Frank Walter,Literatura naučná,1,Police 1: Sci-Fi & Kyberpunk,,"[{'@type': 'Organization', 'name': 'Naumann & Göbel (CZ)'}]",0.0
+403,9788090082403,Brontosauři,Jan Nedvěd,"Literatura naučná, Umění",1,Police 1: Sci-Fi & Kyberpunk,,"[{'@type': 'Organization', 'name': 'Bočan'}]",4.7
+405,8595071900011,"Jan Nedvěd I. - Písně z desek JAKUB, SEDMIKRÁSKA, FRANTIŠEK",Jan Nedvěd,"Literatura naučná, Umění",1,Police 1: Sci-Fi & Kyberpunk,,"[{'@type': 'Organization', 'name': 'Folk & Country klub'}]",4.8
+407,,Tak odjíždí poslední kovboj 1,Michal Tučný,,1,Police 1: Sci-Fi & Kyberpunk,,,0.0
+408,,Tak odjíždí poslední kovboj 2,Michal Tučný,,1,Police 1: Sci-Fi & Kyberpunk,,,0.0
+399,9788085282252,Hosana - zpěvník křesťanských písní,kolektiv autorů,"Literatura naučná, Umění",1,Police 1: Sci-Fi & Kyberpunk,,"[{'@type': 'Organization', 'name': 'Portál'}]",4.2
+260,9788026444404,Já jsem vrah,"Danny Tipping, Ned Parker","Literatura světová, Detektivky, krimi",3,Police 3: Detektivky & Thrillery,2022,"[{'@type': 'Organization', 'name': 'CPress'}]",4.1
+203,9788073419813,Zmizelé ruce,Robert Wilson,"Literatura světová, Detektivky, krimi",3,Police 3: Detektivky & Thrillery,,"[{'@type': 'Organization', 'name': 'BB art'}]",3.8
+221,9788073037420,Kolumbova záhada,Steve Berry,"Literatura světová, Detektivky, krimi",3,Police 3: Detektivky & Thrillery,,"[{'@type': 'Organization', 'name': 'Domino'}]",4.1
+198,9788073700126,Rady andělů na každý den,Doreen Virtue,"Duchovní literatura, Esoterika, astrologie, okultismus",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Synergie (Synex)'}]",4.5
+370,9788072661138,Cestička k Bohu,Ferdinand Neubauer,,4,Police 4: Horory & Mystika,,,0.0
+371,9788090132412,Moje první modlitba,František Daniel Merth,Pro děti a mládež,4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'J. Steinbrener'}]",0.0
+359,9788072663255,Stála jsem u brány nebe a pekla,Gloria Polo,"Duchovní literatura, Esoterika, astrologie, okultismus, Náboženství",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Matice cyrilometodějská'}]",4.1
+298,9788071954170,Co Bůh šeptá maminkám,Hana Pinknerová,"Duchovní literatura, Náboženství",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Karmelitánské nakladatelství'}]",4.1
+410,9788071923015,Dávné i dnešní Dětské modlitby,Jana Vachulová,,4,Police 4: Horory & Mystika,,,0.0
+306,9788074590443,Vodnář,Jenny Eremias,"Duchovní literatura, Esoterika, astrologie, okultismus",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Československý spisovatel'}]",4.1
+369,9788090194342,Mše svatá - Misálek,Jiří Kaňa,"Duchovní literatura, Náboženství",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Kartuziánské nakladatelství'}]",5.0
+358,9788090074606,Ilustrovaná Bible pro mládež,"Josef E. Krause, Samuel Terrien","Duchovní literatura, Náboženství",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Katolické nakladatelství COR JESU'}]",4.5
+372,9788072952588,Deset kroků k radosti,Max Kašparů,"Duchovní literatura, Náboženství",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Cesta'}]",4.6
+280,9788087529065,Hovory s Bohem I.-III.,Neale Donald Walsch,Duchovní literatura,4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Alpha Book'}]",4.4
+180,9788073903886,Hovory s Bohem – Otázky a odpovědi,Neale Donald Walsch,"Literatura světová, Náboženství, Literatura naučná",4,Police 4: Horory & Mystika,2017,"[{'@type': 'Organization', 'name': 'Omega'}]",4.1
+42,8090208606,Katolický katechismus: Život z Víry,"Oldřich Med, František Tomášek","Duchovní literatura, Náboženství, Učebnice a slovníky",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Česká katolická charita'}]",4.3
+193,9788071953470,Boží slovo na každý den,Petr Karas,"Duchovní literatura, Náboženství",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Karmelitánské nakladatelství'}]",2.6
+144,9788086610603,O svatém Cyrilu a svatém Metoději,Petr Piťha,"Náboženství, Pro děti a mládež, Omalovánky",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Studio Gabreta'}]",5.0
+325,9788024227139,Život po životě,Raymond A. Moody,"Literatura světová, Duchovní literatura, New Age",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.1
+55,9788087067192,"Mudrc, surfař a byznysmenka",Robin S. Sharma,"Duchovní literatura, New Age",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Rybka Publishers'}]",4.2
+259,9788073361969,Praktická kniha chiromantie,Věra Kubištová,"Duchovní literatura, Esoterika, astrologie, okultismus",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Fontána (Dobra & Fontána)'}]",4.0
+137,8085810115,Bible,neznámý - neuveden,"Duchovní literatura, Náboženství",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'Česká biblická společnost '}]",4.3
+66,9788073607999,Ilustrovaná bible,neznámý - neuveden,"Duchovní literatura, Náboženství",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",3.7
+373,9788090382916,Cesta za poznáním,Šrí Šrímad A. Č. Bhaktivédánta Svámí Prabhupáda,"Duchovní literatura, Náboženství",4,Police 4: Horory & Mystika,,"[{'@type': 'Organization', 'name': 'The Bhaktivedanta Book Trust'}]",3.7
+182,9788073880576,Dáma s kaméliemi,"Alexandre Dumas, ml.","Literatura světová, Historické romány",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'XYZ (CZ)'}]",4.4
+205,9788072038633,Tahle země není pro starý,Cormac McCarthy,"Literatura světová, Romány, Thrillery",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Argo'}]",4.4
+43,9788025747674,Tajemství všech tajemství,Dan Brown,"Literatura světová, Romány, Thrillery",5,Police 5: Světová beletrie (A–M),2025,"[{'@type': 'Organization', 'name': 'Tympanum'}]",3.9
+223,9788086518626,Šifra mistra Leonarda,Dan Brown,"Literatura světová, Romány, Thrillery",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Metafora'}]",4.5
+337,9788090179776,Odvedu vás do Sierry Madre,Forrest Carter,"Literatura světová, Dobrodružné, Romány",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Synergie (Synex)'}]",4.6
+264,9788074915369,Muž jménem Ove,Fredrik Backman,"Literatura světová, Romány",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Host'}]",4.7
+336,9788072024605,Miláček,Guy de Maupassant,"Literatura světová, Romány",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",4.2
+269,9780330375252,Bridget Jones's Diary,Helen Fielding,,5,Police 5: Světová beletrie (A–M),1996,,0.0
+268,9788072407491,Tom Sawyer,Henry Brook,"Dobrodružné, Učebnice a slovníky",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'INFOA'}]",3.9
+126,9788089719136,"(Za)chraňte své střevo - i játra, žlučník a pankreas",Igor Bukovský,Zdraví,5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'AKV - Ambulancia klinickej výživy'}]",4.5
+229,9788000030104,Bílý tesák,Jack London,"Literatura světová, Dobrodružné, Romány",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.6
+263,9788024227764,Kniha Pastýřova,Joann Davis,"Literatura světová, Romány",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.2
+170,9788024934952,Krasojezdkyně,Jojo Moyes,"Literatura světová, Romány, Pro ženy",5,Police 5: Světová beletrie (A–M),2017,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",4.2
+199,9788087697177,"Analfabetka, která uměla počítat",Jonas Jonasson,"Literatura světová, Humor, Romány",5,Police 5: Světová beletrie (A–M),2014,"[{'@type': 'Organization', 'name': 'Panteon'}]",4.1
+36,9788087697504,Zabiják Anders a jeho přátelé (a sem tam nepřítel),Jonas Jonasson,"Literatura světová, Romány",5,Police 5: Světová beletrie (A–M),2016,"[{'@type': 'Organization', 'name': 'Panteon'}]",3.6
+212,8071910406,Americký hrdina,Larry Beinhart,"Literatura světová, Humor, Romány",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Mustang'}]",3.6
+345,9788025116210,"Kaizen - Metoda, jak zavést úspornější a flexibilnější výrobu v podniku",Masaaki Imai,"Literatura světová, Literatura naučná, Ekonomie a obchod",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Computer Press (CP Books)'}]",4.2
+219,9788025909218,Dračí zuby,Michael Crichton,"Dobrodružné, Thrillery, Historické romány",5,Police 5: Světová beletrie (A–M),2018,"[{'@type': 'Organization', 'name': 'Plus (CZ)'}]",4.2
+217,9788074321283,Černá labuť,Nassim Nicholas Taleb,"Literatura naučná, Ekonomie a obchod",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.1
+279,9788087374405,Kříž Templářů,Paul Christopher,"Literatura světová, Romány",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Plejáda'}]",3.7
+35,9788072036974,Alchymista,Paulo Coelho,"Literatura světová, Romány, Duchovní literatura",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Argo'}]",4.1
+213,9788025741399,Lukostřelec,Paulo Coelho,"Literatura světová, Romány",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Argo'}]",3.8
+214,9788025712443,Nevěra,Paulo Coelho,"Literatura světová, Pro ženy, Erotika",5,Police 5: Světová beletrie (A–M),2014,"[{'@type': 'Organization', 'name': 'Argo'}]",3.3
+34,9788072032426,Pátá hora,Paulo Coelho,"Literatura světová, Romány",5,Police 5: Světová beletrie (A–M),1999,"[{'@type': 'Organization', 'name': 'Argo'}]",4.0
+377,9788090281882,Černošský Pán Bůh a páni Izraeliti,Roark Bradford,"Literatura světová, Povídky, Náboženství",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Levné knihy'}]",4.2
+388,9788073876937,Malevil,Robert Merle,"Literatura světová, Romány, Sci-fi",5,Police 5: Světová beletrie (A–M),2013,"[{'@type': 'Organization', 'name': 'Argo'}, {'@type': 'Organization', 'name': 'Triton'}]",4.6
+46,9788075542373,Pacient,Sebastian Fitzek,"Literatura světová, Romány, Thrillery",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Anag'}]",4.5
+222,9788073033071,Templářské dědictví,Steve Berry,"Literatura světová, Dobrodružné",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Domino'}]",4.3
+61,9788071970996,Dobrá znamení,"Terry Pratchett, Neil Gaiman","Literatura světová, Fantasy",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'Talpress'}]",4.5
+218,9788073415174,Na počest padlým,Vince Flynn,"Literatura světová, Thrillery",5,Police 5: Světová beletrie (A–M),,"[{'@type': 'Organization', 'name': 'BB art'}]",4.6
+33,9788024293141,Den obratu,Adam Oyebanji,"Literatura světová, Romány, Sci-fi",6,Police 6: Světová beletrie (N–Z),2023,"[{'@type': 'Organization', 'name': 'Laser (Laser-books)'}]",3.9
+169,9788076250611,Mráz pod kůží,Allie Reynolds,"Literatura světová, Thrillery",6,Police 6: Světová beletrie (N–Z),2020,"[{'@type': 'Organization', 'name': 'Metafora'}]",4.2
+204,9788025709160,U konce s dechem,Anne Swärd,"Literatura světová, Romány",6,Police 6: Světová beletrie (N–Z),,"[{'@type': 'Organization', 'name': 'Argo'}]",3.8
+391,9788085637823,Quo vadis,Henryk Sienkiewicz,"Literatura světová, Historické romány",6,Police 6: Světová beletrie (N–Z),,"[{'@type': 'Organization', 'name': 'Český klub'}]",4.6
+183,9788081120800,Nežiaduci účinok: Smrť,John Virapen,"Literatura světová, Zdravotnictví",6,Police 6: Světová beletrie (N–Z),,"[{'@type': 'Organization', 'name': 'Slovart Print'}]",4.4
+301,9788024234168,Poslední kmotr,Mario Puzo,"Literatura světová, Detektivky, krimi, Romány",6,Police 6: Světová beletrie (N–Z),,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.4
+188,9788020717771,Petr a Lucie,Romain Rolland,"Literatura světová, Romány",6,Police 6: Světová beletrie (N–Z),2017,"[{'@type': 'Organization', 'name': 'Odeon'}]",4.0
+192,9788074628658,Je to všechno ve tvé hlavě,Suzanne O’Sullivan,"Literatura světová, Literatura naučná, Zdravotnictví",6,Police 6: Světová beletrie (N–Z),2015,"[{'@type': 'Organization', 'name': 'Jota'}]",4.1
+245,9788074324864,Syn Londýna,Tom Pollock,"Literatura světová, Fantasy",6,Police 6: Světová beletrie (N–Z),2014,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.0
+44,9788024225517,Chatrč,Wm. Paul Young,"Literatura světová, Duchovní literatura, Esoterika, astrologie, okultismus",6,Police 6: Světová beletrie (N–Z),,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.0
+276,9788024290386,Povídky o ženách,* antologie,"Povídky, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Listen'}]",3.5
+322,,Z rodných hor,Adolf Heyduk,"Literatura česká, Poezie",7,Police 7: Česká a slovenská literatura,,,0.0
+84,9788024282510,21 dní,Adriana Krnáčová,"Literatura slovenská, Literatura naučná, Psychologie a pedagogika",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Universum (CZ)'}]",4.7
+216,9788027515868,Les v domě,Alena Mornštajnová,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,2023,"[{'@type': 'Organization', 'name': 'Host'}]",4.4
+58,9788027508112,Listopád,Alena Mornštajnová,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,2022,"[{'@type': 'Organization', 'name': 'Host'}]",4.3
+324,9788020421142,Ostře sledované vlaky,Bohumil Hrabal,"Novely, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Mladá fronta'}]",3.8
+317,9788090396234,Babička,Božena Němcová,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Kernberg'}]",3.9
+320,9788086132624,Divá Bára ...a jiné povídky,Božena Němcová,"Povídky, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Knižní expres'}]",4.6
+278,9788024928562,Deníček moderního fotra 2 aneb Pánbůh mi to oplatil na dětech,Dominik Landsman,"Humor, Literatura česká, Biografie a memoáry",7,Police 7: Česká a slovenská literatura,2015,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",3.8
+277,9788024926568,Deníček moderního fotra aneb Proč by muži neměli mít děti,Dominik Landsman,"Literatura česká, Biografie a memoáry, Rodina",7,Police 7: Česká a slovenská literatura,2014,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",3.8
+69,9788073604899,Staré řecké báje a pověsti,Eduard Petiška,"Literatura česká, Pro děti a mládež, Pověsti",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",4.5
+157,9788073604899,Staré řecké báje a pověsti,Eduard Petiška,"Literatura česká, Pro děti a mládež, Pověsti",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",4.5
+315,9788000003573,Z oříšku královny Mab,Eva Vrchlická,"Povídky, Literatura česká, Pro děti a mládež",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.5
+63,9788085872583,Jak být šťastný - Dvanáct nemorálních rad,Halina Pawlowská,Literatura česká,7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Motto'}]",3.6
+274,9788020013798,"Kdybys nebyla, vymyslím si tě",Ivan Kraus,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Academia (CZ)'}]",3.8
+225,9788020015204,Číslo do nebe,Ivan Kraus,"Povídky, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Academia (CZ)'}]",4.5
+329,9788071062813,Básně,Jan Neruda,"Literatura česká, Poezie",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'NLN - Nakladatelství Lidové noviny'}]",4.1
+143,9788087391952,Murphyho zákony pro zamilované,Jiří Žáček,"Humor, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Československý spisovatel'}]",3.2
+226,9788087049235,Mluviti pravdu,Josef Formánek,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Smart Press'}]",4.4
+224,9788090558106,Syn větru a prsatý muž,Josef Formánek,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,2013,"[{'@type': 'Organization', 'name': 'Smart Press'}]",4.1
+187,9788087049457,Umřel jsem v sobotu,Josef Formánek,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,,4.2
+261,9788025736302,Propast,Jozef Karika,"Romány, Thrillery, Literatura slovenská",7,Police 7: Česká a slovenská literatura,2021,"[{'@type': 'Organization', 'name': 'Argo'}]",3.5
+323,9788088467014,Máj,Karel Hynek Mácha,"Literatura česká, Poezie",7,Police 7: Česká a slovenská literatura,2022,"[{'@type': 'Organization', 'name': 'Rosier'}]",3.9
+376,9788020719867,Kytice,Karel Jaromír Erben,"Literatura česká, Poezie, Pověsti",7,Police 7: Česká a slovenská literatura,2020,"[{'@type': 'Organization', 'name': 'Odeon'}]",4.4
+230,9788000030692,Bylo nás pět,Karel Poláček,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.1
+334,9788086425191,Kniha apokryfů,Karel Čapek,"Povídky, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Levné knihy'}]",4.4
+167,9788026432982,Hvězdy na cestě,Karin Krajčo Babinská,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,2020,"[{'@type': 'Organization', 'name': 'CPress'}]",4.4
+168,9788026443995,Tsunami,Karin Krajčo Babinská,"Romány, Pro ženy, Literatura česká",7,Police 7: Česká a slovenská literatura,2022,"[{'@type': 'Organization', 'name': 'CPress'}]",4.4
+53,9788026422099,Za sny,Karin Krajčo Babinská,"Romány, Pro ženy, Literatura česká",7,Police 7: Česká a slovenská literatura,2018,"[{'@type': 'Organization', 'name': 'CPress'}]",4.0
+307,9788072369218,Milostné komplikace,Karolína Becková,"Romány, Pro ženy, Literatura česká",7,Police 7: Česká a slovenská literatura,2016,"[{'@type': 'Organization', 'name': 'Jan Vašut (Vašut)'}]",3.8
+273,9788086546186,Všechno něco stojí,Kateřina Zelingrová,"Romány, Pro ženy, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Pragoline (Jindřich Kraus)'}]",3.1
+295,9788071853671,Blaník,"Ladislav Smoljak, Zdeněk Svěrák, Jára Cimrman","Divadelní hry, Humor, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.8
+296,9788071854791,Posel z Liptákova,"Ladislav Smoljak, Zdeněk Svěrák, Jára Cimrman","Divadelní hry, Humor, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.7
+294,9788071852902,Záskok,"Ladislav Smoljak, Zdeněk Svěrák, Jára Cimrman","Divadelní hry, Humor, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.8
+293,9788071853169,Švestka,"Ladislav Smoljak, Zdeněk Svěrák, Jára Cimrman","Divadelní hry, Humor, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.7
+195,9788026718390,Svedu to na tebe,Lucie Šilhová,"Romány, Pro ženy, Literatura česká",7,Police 7: Česká a slovenská literatura,2020,"[{'@type': 'Organization', 'name': 'Motto'}]",3.6
+60,9788028401856,Myšlenky za volantem 2,Marek Eben,"Fejetony, eseje, Humor, Literatura česká",7,Police 7: Česká a slovenská literatura,2024,"[{'@type': 'Organization', 'name': 'Brána'}]",4.6
+196,9788020462077,Zpověď farářky,Martina Viktorie Kopecká,"Literatura česká, Náboženství, Biografie a memoáry",7,Police 7: Česká a slovenská literatura,2023,"[{'@type': 'Organization', 'name': 'Mladá fronta'}]",4.1
+207,9788072271238,Báječná léta s Klausem,Michal Viewegh,"Romány, Literatura česká, Ekonomie a obchod",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Petrov'}]",3.5
+201,9788072273133,Mafie v Praze,Michal Viewegh,"Detektivky, krimi, Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Druhé město'}]",3.8
+202,9788072273133,Mafie v Praze,Michal Viewegh,"Detektivky, krimi, Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Druhé město'}]",3.8
+211,9788072273249,Mráz přichází z Hradu,Michal Viewegh,"Detektivky, krimi, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Druhé město'}]",3.4
+209,9788072271498,Názory na vraždu,Michal Viewegh,"Novely, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Petrov'}]",3.5
+210,9788072270460,Povídky o manželství a o sexu,Michal Viewegh,"Povídky, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Petrov'}]",3.5
+208,9788072271542,Případ nevěrné Kláry,Michal Viewegh,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Petrov'}]",3.6
+206,9788072272747,Román pro muže,Michal Viewegh,"Novely, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Druhé město'}]",3.2
+316,9788086081021,Zlatí úhoři,Ota Pavel,"Povídky, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Agentura VPK'}]",4.6
+220,9788090699694,Nejlepší víkend,Patrik Hartl,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,2018,"[{'@type': 'Organization', 'name': 'Bourdon'}]",3.9
+319,9788074701016,Slezské písně,Petr Bezruč,"Literatura česká, Poezie",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Akropolis'}, {'@type': 'Organization', 'name': 'Ústav pro českou literaturu AV ČR'}]",3.8
+215,9788087270516,Konec prokrastinace,Petr Ludwig,"Literatura česká, Literatura naučná, Osobní rozvoj a styl",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Jan Melvil'}]",4.2
+299,9788071858508,Babičky,Petr Šabach,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.3
+185,9788071856863,Ramon,Petr Šabach,"Novely, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.2
+194,9788026718024,Foukneš do pěny,Radka Třeštíková,"Romány, Pro ženy, Literatura česká",7,Police 7: Česká a slovenská literatura,2020,"[{'@type': 'Organization', 'name': 'Motto'}]",3.2
+184,9788026721079,Tajemství,Radka Třeštíková,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,2021,"[{'@type': 'Organization', 'name': 'Motto'}]",3.8
+258,9788026721338,To prší moře,Radka Třeštíková,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Motto'}]",3.9
+321,9788073901066,Krysař,Viktor Dyk,"Novely, Literatura česká",7,Police 7: Česká a slovenská literatura,2013,"[{'@type': 'Organization', 'name': 'Omega'}]",4.1
+335,9788090292710,Večerní písně,Vítězslav Hálek,"Literatura česká, Poezie",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Ad Fontes'}]",3.9
+328,,Až se ti zasteskne,Vítězslav Nezval,"Poezie, česká",7,Police 7: Česká a slovenská literatura,,,0.0
+300,9788025307618,Povídky,Zdeněk Svěrák,"Humor, Povídky, Literatura česká",7,Police 7: Česká a slovenská literatura,,"[{'@type': 'Organization', 'name': 'Fragment (CZ)'}]",4.3
+275,9788024741840,Strážce nádrže,Zdeněk Svěrák,"Humor, Literatura česká",7,Police 7: Česká a slovenská literatura,2018,"[{'@type': 'Organization', 'name': 'Cosmopolis'}]",4.4
+141,9788090731400,Ďábel je řvoucí lev,Zdeněk Volný,"Romány, Literatura česká",7,Police 7: Česká a slovenská literatura,2018,"[{'@type': 'Organization', 'name': 'Via Facti'}]",3.4
+290,9788085387117,Na bruslích do světa,"Alena Vrzáňová-Steindlerová, Alena Kohoutová","Literatura naučná, Sport",9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'Kanzelsberger'}]",4.2
+289,8090157831,Diana – Její pravdivý příběh,Andrew Morton,"Literatura světová, Literatura naučná, Biografie a memoáry",9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'Columbus (CZ)'}]",3.7
+242,8020403884,Příběhy Miloše Formana,Antonín Jaroslav Liehm,"Literatura naučná, Biografie a memoáry",9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'Mladá fronta'}]",4.4
+244,9788085619676,Život Vincenta van Gogha,Henri Perruchot,"Literatura naučná, Biografie a memoáry, Umění",9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'Votobia'}]",4.7
+394,,Mikoláš Aleš Knížka o jeho životě  a díle,Holešovský Lacina,"Literatura naučná, Umění",9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'Národní galerie'}]",4.2
+138,9788024223414,Cesty za nadějí,Josef Fousek,"Literatura naučná, Biografie a memoáry",9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.3
+243,9788073815141,Madonna - Životopis,Lucy O'Brien,"Literatura naučná, Biografie a memoáry",9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'BB art'}]",4.4
+381,9788070335901,Václav Ježek Trénoval jsem mistry,Miroslav Ježek,Literatura naučná,9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'Olympia'}]",5.0
+398,,Naše svatba,Ondřej a Hana,,9,"Police 9: Historie, Biografie & Fakta",2012,,0.0
+386,9788070773604,TGM ve fotografii - Bude se na nás dívat,R.Svačina,"Literatura naučná, Obrazové publikace",9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'Svět v obrazech'}]",4.7
+108,9788023933253,Škodovka v historických fotografiích,"Vladislav Krátký, Petr Mazný, Ladislava Nohovcová","Literatura naučná, Historie",9,"Police 9: Historie, Biografie & Fakta",,"[{'@type': 'Organization', 'name': 'Starý most'}]",5.0
+134,9788025608791,Tajemství objevů,"neznámý - neuveden, Jack Challoner","Literatura naučná, Historie",9,"Police 9: Historie, Biografie & Fakta",2013,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",0.0
+309,8086313034,II. Kariera,Ája Vrzáňová,"Krasobruslení, Sport, Biografie",9,"Police 9: Historie, Biografie & Fakta",,,0.0
+131,9788073910341,Vesmír,Alan Dyer,"Literatura naučná, Věda",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Slovart (CZ)'}]",5.0
+189,9788086135342,Proč muži lžou a ženy pláčou,"Allan Pease, Barbara Pease","Literatura naučná, Psychologie a pedagogika",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Alman (Jiří Alman)'}]",3.8
+166,9788073460426,Čeština na dlani - přehled světové a české literatury - Český jazyk,Alois Bauer,"Literatura naučná, O literatuře, Učebnice a slovníky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Rubico'}]",4.3
+288,9788073099015,Jak přežít kocovinu - Nejlepší rady a tipy,Anna Šafránková,Literatura naučná,10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Levné knihy'}]",3.8
+99,9788025601525,Velký ilustrovaný atlas lidského těla,Beverly McMillan,"Literatura naučná, Zdraví",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",5.0
+132,9788024918921,Vyrábíme krabičky,Edwina Cholmeley-Jones,"Literatura naučná, Hobby",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",4.4
+181,9788075537959,Ochočená touha: Probuďte svou erotickou inteligenci,Esther Perel,"Literatura naučná, Erotika, Osobní rozvoj a styl",10,"Police 10: Věda, Technologie & Příroda",2020,"[{'@type': 'Organization', 'name': 'Triton'}]",4.4
+64,9788071783152,Potíže dětí s učením a chováním,Gordon Serfontein,"Literatura naučná, Psychologie a pedagogika",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Portál'}]",3.7
+393,9788024220123,Kompendium chemie,"Harald Gärtner, Manfred Hoffmann, Horst Schaschke, Ina Maria Schürmanno","Literatura naučná, Věda",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.4
+83,9788024211930,Hvězdy a planety,Ian Ridpath,"Vesmír, Přírodní vědy",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.5
+154,9788089719143,Protiprdkavá kuchárska kniha PLUS manuál riešenia porúch trávenia,"Igor Bukovský, Ivana Kachútová, Petra Gálisová","Literatura naučná, Kuchařky, Zdraví",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'AKV - Ambulancia klinickej výživy'}]",5.0
+250,9788071823384,Biologie pro gymnázia,"Jan Jelínek, Vladimír Zicháček","Literatura naučná, Učebnice a slovníky, Přírodní vědy",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Nakladatelství Olomouc'}]",4.5
+50,9788074292804,Dělená strava,Jarmila Mandžuková,"Literatura naučná, Kuchařky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Vyšehrad'}]",4.6
+272,8071681679,Angličtina pro jazykové školy II.,"Jaroslav Peprník, Stella Nangonová, Eva Zábojová","Literatura naučná, Jazyky, lingvistika, Učebnice a slovníky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Fortuna Libri (CZ)'}]",4.2
+368,9788090030282,Křížovka života,Josef Jonáš,"Literatura naučná, Zdraví",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Eminent'}]",4.6
+249,9788073211738,1000 anglických slovíček,Joseph P. Orwell,"Literatura naučná, Učebnice a slovníky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Fortuna Libri (CZ)'}]",4.5
+383,9788004259792,Angličtina pro základní školy I.díl,"Karel Polák, Julie Kubíčková","Literatura naučná, Učebnice a slovníky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'SPN - pedagogické nakladatelství'}]",4.6
+291,9788090397354,Hudba ohně,Karel Veselý,"African Americans, Music, History and criticism, Popular music",10,"Police 10: Věda, Technologie & Příroda",2012,BiggBoss,0.0
+292,9788090397354,Hudba ohně,Karel Veselý,"African Americans, Music, History and criticism, Popular music",10,"Police 10: Věda, Technologie & Příroda",2012,BiggBoss,0.0
+171,9788026070061,Kuchařka z ostrova Sardinie,Karolina Konečná,"Literatura naučná, Kuchařky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Kuchařka z ostrova'}]",4.6
+378,9788090183407,Přirozené a spolehlivé plánování rodičovství,"Květoslav Šipr, Helena Šiprová","Literatura naučná, Rodina",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Gloria'}]",4.8
+197,9788081116087,Zdraví bez léků - Máte na dosah s pomocí střevních mikrobů,"Ladislav Kužela, Zuzana Čižmáriková","Literatura naučná, Zdraví",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Noxi'}]",4.2
+118,9788073600877,Sto největších divů přírody,"Marco Cattaneo, Jasmina Trifoni","Literatura naučná, Obrazové publikace, Příroda, zvířata",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",0.0
+175,9788085944198,Doplňky z provázků,Marina Schories,"Literatura naučná, Hobby",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",4.8
+271,8085927748,Francouzština pro samouky,"Miroslav Pravda, Marie Pravdová","Literatura naučná, Jazyky, lingvistika, Učebnice a slovníky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Leda'}]",4.5
+104,9788090806795,Znovuzrození,Petr Casanova,"Literatura naučná, Osobní rozvoj a styl",10,"Police 10: Věda, Technologie & Příroda",2023,"[{'@type': 'Organization', 'name': 'First Class Publishing'}]",4.2
+57,9788072637454,Jednoduše buďte šťastní – 7 klíčů k lehkosti bytí,Pierre Franckh,"Literatura naučná, Osobní rozvoj a styl",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Anag'}]",4.5
+379,9788024215181,Receptářování,Přemek Podlaha,"Literatura naučná, Hobby",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.6
+142,9788024912479,Intimní slasti a strasti,Radim Uzel,Literatura naučná,10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",3.3
+85,9788086606590,Tradiční čínská medicína v denním životě,"Radomír Růžička, Rudolf Sosík, Ying Wu Wang",Literatura naučná,10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Poznání'}]",4.5
+82,9788090489400,Netradiční bylinkář,Roman Kindl,"Literatura naučná, Zdraví",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'vlastním nákladem (CZ)'}]",4.5
+80,9788024235226,Koně,Saskia Brixner,"Literatura naučná, Příroda, zvířata",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.5
+59,9788074925061,Histaminová intolerance,Thilo Schleip,"Literatura naučná, Kuchařky, Zdraví",10,"Police 10: Věda, Technologie & Příroda",2021,"[{'@type': 'Organization', 'name': 'Galén'}]",4.3
+45,9788025122952,Naše bylinky v tradiční čínské medicíně,Thomas Avery Garran,"Literatura naučná, Zdraví",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Computer Press (CP Books)'}]",0.0
+402,9788000025254,"Já, písničkář",Tomáš Klus,"Literatura naučná, Umění",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'CooBoo'}]",4.7
+267,9788085840162,Angličtina - praktický jazykový průvodce,"Tomáš Modlík, Milena Hnilicová, Jaroslava Krejčí","Literatura naučná, Učebnice a slovníky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'RO-TO-M'}]",4.0
+81,9788072024575,Dělená strava,Ursula Summ,"Literatura naučná, Kuchařky, Zdraví",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",0.0
+287,9788024907628,Dělená strava,Ursula Summ,"Literatura naučná, Kuchařky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",4.2
+266,9788071785323,Angličtina na každý den,Zdenka Maixnerová,"Literatura naučná, Jazyky, lingvistika, Učebnice a slovníky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Portál'}]",0.0
+174,9788024908724,Kouzelné origami - Svět papírových zvířátek,Zülal Aytüre-Scheele,"Literatura naučná, Hobby",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Ikar (CZ)'}]",4.6
+389,9788085806557,Matematika pro 5. ročník – 1. díl,kolektiv,"Učebnice a slovníky, Matematika a logika",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Prodos'}]",3.4
+153,9788086196367,Léčíme se s přírodou,kolektiv autorů,"Příroda, zvířata, Zdraví",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': ""Reader's Digest Výběr (CZ)""}]",4.6
+133,9783625133254,Naše tělo svět kolem nás,kolektiv autorů,,10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",0.0
+62,9788071686798,Pravidla českého pravopisu - Školní vydání včetně dodatku,kolektiv autorů,"Literatura naučná, Učebnice a slovníky",10,"Police 10: Věda, Technologie & Příroda",,"[{'@type': 'Organization', 'name': 'Fortuna Libri (CZ)'}]",4.8
+37,9788075932396,Paměťový kód,Alexander Loyd,"Literatura světová, Osobní rozvoj a styl, Zdraví",11,"Police 11: Filozofie, Psychologie & Rozvoj",2020,"[{'@type': 'Organization', 'name': 'Beta-Dobrovský'}]",3.4
+270,9788087923078,Sama sobě šéfem,Alexandra John,"Literatura naučná, Ekonomie a obchod",11,"Police 11: Filozofie, Psychologie & Rozvoj",2015,"[{'@type': 'Organization', 'name': 'Baroque partners'}]",4.2
+339,9788027025398,Továrna na sny,Anie Songe,Rozvoj osobnosti,11,"Police 11: Filozofie, Psychologie & Rozvoj",,,0.0
+191,9788071789376,Šťastní rodiče - Křesťanská výchova podle Dona Boska,Bruno Ferrero,"Náboženství, Psychologie a pedagogika, Rodina",11,"Police 11: Filozofie, Psychologie & Rozvoj",,"[{'@type': 'Organization', 'name': 'Portál'}]",4.9
+52,9788075491619,Moc přítomného okamžiku - Kniha o duchovním osvícení,Eckhart Tolle,"Literatura světová, Duchovní literatura, Esoterika, astrologie, okultismus",11,"Police 11: Filozofie, Psychologie & Rozvoj",,"[{'@type': 'Organization', 'name': 'Pragma'}]",4.3
+239,9788075857675,Odse*te se,Gary John Bishop,"Literatura světová, Literatura naučná, Osobní rozvoj a styl",11,"Police 11: Filozofie, Psychologie & Rozvoj",2019,"[{'@type': 'Organization', 'name': 'Via'}]",3.9
+238,9788076425767,Přestaňte řešit h*vna,Gary John Bishop,"Literatura světová, Literatura naučná, Osobní rozvoj a styl",11,"Police 11: Filozofie, Psychologie & Rozvoj",2020,"[{'@type': 'Organization', 'name': 'Via'}]",3.5
+49,8096729454,Sofiin svět,Jostein Gaarder,"Literatura naučná, Filozofie, Pro děti a mládež",11,"Police 11: Filozofie, Psychologie & Rozvoj",,"[{'@type': 'Organization', 'name': 'Knižná dielňa Timotej'}]",4.4
+256,9788073907235,"Důmyslné umění, jak mít všechno u pr**le",Mark Manson,"Literatura světová, Literatura naučná, Osobní rozvoj a styl",11,"Police 11: Filozofie, Psychologie & Rozvoj",2017,"[{'@type': 'Organization', 'name': 'Omega'}]",3.6
+257,9788027714148,"Důmyslné umění, jak mít všechno u pr**le: Pracovní kniha",Mark Manson,"Literatura naučná, Osobní rozvoj a styl, Psychologie a pedagogika",11,"Police 11: Filozofie, Psychologie & Rozvoj",2022,"[{'@type': 'Organization', 'name': 'Via'}]",4.6
+302,9788026510987,Pohodové rodičovství,Milan Studnička,"Literatura naučná, Psychologie a pedagogika, Rodina",11,"Police 11: Filozofie, Psychologie & Rozvoj",,"[{'@type': 'Organization', 'name': 'BizBooks'}]",4.3
+304,9788026511397,Kniha pro ženy,"Milan Studnička, Olga Studničková Šípková","Pro ženy, Literatura naučná, Osobní rozvoj a styl",11,"Police 11: Filozofie, Psychologie & Rozvoj",2023,"[{'@type': 'Organization', 'name': 'BizBooks'}]",4.0
+305,9788026511397,Kniha pro ženy,"Milan Studnička, Olga Studničková Šípková","Pro ženy, Literatura naučná, Osobní rozvoj a styl",11,"Police 11: Filozofie, Psychologie & Rozvoj",2023,"[{'@type': 'Organization', 'name': 'BizBooks'}]",4.0
+303,9788011040444,Restart muže,"Milan Studnička, Sláva Černý","Literatura česká, Psychologie a pedagogika",11,"Police 11: Filozofie, Psychologie & Rozvoj",,"[{'@type': 'Organization', 'name': 'vlastním nákladem (CZ)'}]",3.5
+240,9788090613805,250 zákonů lásky,Petr Casanova,"Pro ženy, Literatura naučná, Osobní rozvoj a styl",11,"Police 11: Filozofie, Psychologie & Rozvoj",,"[{'@type': 'Organization', 'name': 'First Class Publishing'}]",4.2
+48,9788090162266,Numerologie – čísla lásky,Robin Stein,"Esoterika, astrologie, okultismus",11,"Police 11: Filozofie, Psychologie & Rozvoj",,"[{'@type': 'Organization', 'name': 'Chvojkovo nakladatelství (Jiří Chvojka)'}]",4.6
+41,9788088413066,Deník Life Designerky,Tereza Kovačovič,"Pro ženy, Literatura naučná, Osobní rozvoj a styl",11,"Police 11: Filozofie, Psychologie & Rozvoj",2023,"[{'@type': 'Organization', 'name': 'Daranus'}]",0.0
+265,9788090400153,Anastasia,Vladimir Megre,"Duchovní literatura, Esoterika, astrologie, okultismus",11,"Police 11: Filozofie, Psychologie & Rozvoj",,"[{'@type': 'Organization', 'name': 'Zvonící cedry'}]",4.1
+286,9788070339428,Torino 2006 - XX. zimní olympijské hry,Alexandr Žurman,"Literatura naučná, Sport",12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'Olympia'}]",0.0
+232,9788026442028,Dusty: Kamarádi navždy,Jan Andersen,"Literatura světová, Příroda, zvířata, Pro děti a mládež",12,"Police 12: Zvířata, Přiroda",2022,"[{'@type': 'Organization', 'name': 'CPress'}]",4.6
+284,9788071819769,Šoumen v kopačkách,Jan Krůta ml.,"Literatura naučná, Sport",12,"Police 12: Zvířata, Přiroda",,,3.4
+235,9788071811695,Jízda na koni,Josef Dobeš,"Literatura naučná, Příroda, zvířata",12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'Cesty (Agentura Cesty)'}]",4.7
+285,9788072360611,Francie 1998,Karel Felt,Sport,12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'Jan Vašut (Vašut)'}]",2.6
+382,9788086006703,Francie '98,"Konečný, Svoboda","Literatura naučná, Sport",12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'ETC'}]",4.2
+233,9788024274171,Dobrodružství  medvídka mývala,Libuše Radová,"Literatura česká, Pro děti a mládež, Příběhy",12,"Police 12: Zvířata, Přiroda",2021,"[{'@type': 'Organization', 'name': 'Pikola'}]",4.9
+353,9788073528515,Velké putování  DINOSAUŘI,Rosie Heywood,,12,"Police 12: Zvířata, Přiroda",,,0.0
+105,9788086113869,Moja a páv - Gorilí pohádky,"Tereza Šefrnová, Miroslav Bobek","Literatura česká, Příroda, zvířata, Pro děti a mládež",12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'Brio'}]",4.6
+283,9788025601860,Co víš o sportu?,kolektiv autorů,"Sport, Pro děti a mládež, Encyklopedie",12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",5.0
+112,9788072373086,Velké putování za zvířaty,"kolektiv autorů, Caroline Young, Kate Needham","Pro děti a mládež, Encyklopedie",12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",4.8
+106,9788024232256,Zvíře,"kolektiv autorů, David Burnie","Literatura naučná, Příroda, zvířata",12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.9
+107,9788024232256,Zvíře,"kolektiv autorů, David Burnie","Literatura naučná, Příroda, zvířata",12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.9
+282,9788025611241,Nejlepší fotbalové finty,neznámý - neuveden,"Literatura naučná, Sport",12,"Police 12: Zvířata, Přiroda",,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",0.0
+101,9788073608606,Okolím Berounky,Ivo Paulík,"Literatura naučná, Cestopisy a místopisy",13,Police 13: Cestování & Zeměpis,,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",4.8
+409,9788075084743,Srí Lanka - inspirace na cesty,kolektiv,,13,Police 13: Cestování & Zeměpis,,,0.0
+110,9788072377725,Velká dětská encyklopedie,"Ben Denne, Liz Dalby, Caroline Young, Kirsteen Rogers, Anna Milbourne, Felicity Brooks, Sarah Khan, Laura Howell, Rachel Firth, Anna Claybourne, Fiona Chandler, Paul Dowswell, Philip Clarke",Encyklopedie,14,"Police 14: Kuchařky, Zahrada & Hobby",,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",0.0
+111,9788073913977,Guinness World Records 2011 - Kniha nabitá tisícovkou nejnovějších rekordů,Craig Glenday,"Literatura naučná, Encyklopedie",14,"Police 14: Kuchařky, Zahrada & Hobby",,"[{'@type': 'Organization', 'name': 'Slovart (CZ)'}]",4.7
+109,9788073911164,Vypěstuj a sněz,Jill Bloomfield,"Literatura naučná, Zahrada",14,"Police 14: Kuchařky, Zahrada & Hobby",,"[{'@type': 'Organization', 'name': 'Slovart (CZ)'}]",4.2
+352,9788085363982,Největší kniha o zahradě,John Brookes,"Literatura naučná, Zahrada",14,"Police 14: Kuchařky, Zahrada & Hobby",,"[{'@type': 'Organization', 'name': 'Cesty (Agentura Cesty)'}]",4.6
+351,9788085815108,Zahrada po celý rok,Klaas T. Noordhuis,"Literatura naučná, Zahrada",14,"Police 14: Kuchařky, Zahrada & Hobby",,"[{'@type': 'Organization', 'name': 'Rebo'}]",4.8
+236,9788071814207,Dětská encyklopedie do kapsy,kolektiv autorů,"Literatura naučná, Pro děti a mládež, Encyklopedie",14,"Police 14: Kuchařky, Zahrada & Hobby",,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",4.5
+350,9788025608227,Encyklopedie pro zvídavé děti,kolektiv autorů,"Pro děti a mládež, Encyklopedie",14,"Police 14: Kuchařky, Zahrada & Hobby",,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",5.0
+332,9788073527662,Velký ilustrovaný atlas světa a vesmíru,kolektiv autorů,"Pro děti a mládež, Encyklopedie",14,"Police 14: Kuchařky, Zahrada & Hobby",,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",4.5
+333,9788073527662,Velký ilustrovaný atlas světa a vesmíru,kolektiv autorů,"Pro děti a mládež, Encyklopedie",14,"Police 14: Kuchařky, Zahrada & Hobby",,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",4.5
+375,9788000005652,Pět holek na krku,Iva Hercíková,"Literatura česká, Pro děti a mládež, Dívčí romány",15,"Police 15: Komiksy, Manga & Young Adult",,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.0
+128,9788070335659,Rychlé šípy,Jaroslav Foglar,"Dobrodružné, Komiksy, Literatura česká",15,"Police 15: Komiksy, Manga & Young Adult",1999,"[{'@type': 'Organization', 'name': 'Olympia'}]",4.8
+127,9788085389937,Prvních dvanáct příběhů Čtyřlístku: 1969-1970,"Ljuba Štíplová, Jaroslav Němeček","Komiksy, Literatura česká, Pro děti a mládež",15,"Police 15: Komiksy, Manga & Young Adult",,"[{'@type': 'Organization', 'name': 'Čtyřlístek'}]",4.7
+129,9788085389906,Slavné příběhy Čtyřlístku 1971–1974,"Ljuba Štíplová, Jaroslav Němeček","Komiksy, Literatura česká, Pro děti a mládež",15,"Police 15: Komiksy, Manga & Young Adult",,"[{'@type': 'Organization', 'name': 'Čtyřlístek'}]",4.8
+311,8000000792,Zrcadlo pro Kristýnu,Ludmila Romportlová,"Povídky, Literatura česká",15,"Police 15: Komiksy, Manga & Young Adult",,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",2.9
+312,9788000011813,Tajemství proutěného košíku,Markéta Zinnerová,Pro děti a mládež,15,"Police 15: Komiksy, Manga & Young Adult",,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.4
+231,9788075772268,Kdo zabil Snížka?,Petra Soukupová,"Novely, Literatura česká, Pro děti a mládež",15,"Police 15: Komiksy, Manga & Young Adult",2017,"[{'@type': 'Organization', 'name': 'Host'}]",4.1
+314,,Maturanti,Růžena Lukášová,,15,"Police 15: Komiksy, Manga & Young Adult",,,0.0
+318,9788085194371,Blíženci,Stanislav Rudolf,"Literatura česká, Dívčí romány",15,"Police 15: Komiksy, Manga & Young Adult",,"[{'@type': 'Organization', 'name': 'Dialog'}]",4.0
+310,8090066968,"Nebreč, Lucie",Stanislav Rudolf,"Literatura česká, Pro děti a mládež, Dívčí romány",15,"Police 15: Komiksy, Manga & Young Adult",,"[{'@type': 'Organization', 'name': 'Parta'}]",4.1
+308,8085612259,"To jsme, prosím, nebrali",Stanislav Rudolf,"Literatura česká, Pro děti a mládež, Dívčí romány",15,"Police 15: Komiksy, Manga & Young Adult",,"[{'@type': 'Organization', 'name': 'Erika'}]",4.0
+313,,Tanec pro dva motýly,Vlasta Váňová,"Pro děti a mládež, Dívčí romány",15,"Police 15: Komiksy, Manga & Young Adult",,,0.0
+343,9788000002361,Medvídek Pú (20 příběhů),A. A. Milne,"Literatura světová, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.6
+177,9788072922277,Co všechno už vím,Adam Novotný,"Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Axióma'}]",4.2
+159,9788026419068,Gerda: Příběh velryby,Adrián Macho,"Literatura slovenská, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,2018,"[{'@type': 'Organization', 'name': 'CPress'}]",4.3
+158,9788072671298,"Dlouhý, Široký a Bystrozraký (převyprávění)",Alena Peisertová,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Junior (CZ)'}]",4.5
+93,9788024219103,Zvířátka a loupežníci,Alena Peisertová,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.6
+75,9788074971464,Abeceda - Příběhy zvířátek,Alena Schejbalová,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,2016,"[{'@type': 'Organization', 'name': 'Akcent'}]",4.8
+100,9788076390782,V klokaních botách,Alice Pantermüller,"Literatura světová, Pro děti a mládež, Dívčí romány",16,Police 16: Dětská literatura & Pohádky,2022,"[{'@type': 'Organization', 'name': 'Bookmedia'}]",4.7
+147,9788073211462,Pohádky na dobrou noc,"Anna Casalis, Antonio Lupatelli","Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Fortuna Libri (CZ)'}]",0.0
+51,9788000047331,Malý princ,Antoine de Saint-Exupéry,"Literatura světová, Novely, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.6
+331,9788000073583,Děti z Bullerbynu,Astrid Lindgren,"Literatura světová, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.7
+228,9788000022949,Madynka,Astrid Lindgren,"Literatura světová, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.6
+330,9788000038025,Pipi Dlouhá punčocha (4 příběhy),Astrid Lindgren,"Literatura světová, Dobrodružné, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.6
+163,9788071812272,Pohádky a pověsti,Božena Němcová,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",4.5
+164,9788073606268,Pohádky a pověsti,Božena Němcová,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",4.5
+161,9788072672042,Pohádky pod stromeček,Carlos Busquets,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Junior (CZ)'}]",4.8
+148,9788073525330,Velká kniha rodiny medvídků,Carol Lawson,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,,5.0
+340,9788020503008,Bella a Sebastián (Útulek na Velkém Baou),Cécile Aubry,"Dobrodružné, Romány, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Svoboda-Libertas'}]",4.5
+74,9788000033594,Sedmilhář Josífek,Daniela Krolupperová,"Literatura česká, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.6
+145,9788025506110,Planeta hádanek,David Glover,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Rebo'}]",4.2
+139,9788025308554,Můj první atlas světa,Deborah Chancellor,"Pro děti a mládež, Encyklopedie",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Fragment (CZ)'}]",4.7
+77,9788074515927,Říkanky pro nejmenší,Edita Plicková,Pro nejmenší,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",4.5
+374,9788024257488,Anička malířka,Eduard Petiška,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.6
+356,9788073604127,Pohádkový dědeček,Eduard Petiška,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",4.7
+227,9788024297545,Příběhy tisíce a jedné noci,Eduard Petiška,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Pikola'}]",4.2
+326,,Irské pohádky,"Eileen O'Faolain, Patrick Kennedy","Pohádky, dětské",16,Police 16: Dětská literatura & Pohádky,,,0.0
+120,9788074472930,Čarodějka z Turlinghamu,Ellie Boswell,"Literatura světová, Fantasy, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,2013,"[{'@type': 'Organization', 'name': 'CooBoo'}]",4.1
+151,9788000061207,Luisa a Lotka,Erich Kästner,"Literatura světová, Romány, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.6
+281,9788025604656,365 - malujeme po celý rok,Fiona Watt,"Pro děti a mládež, Šikovné děti - tvoření, hry, styl",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",5.0
+121,9788026207955,Gorila a já,Frida Nilsson,"Literatura světová, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,2015,"[{'@type': 'Organization', 'name': 'Portál'}]",4.6
+346,9788000029863,Krtek a zima,Hana Doskočilová,,16,Police 16: Dětská literatura & Pohádky,,,0.0
+68,9788026218005,Pokojíček plný hraček,Hana Zobačová,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Portál'}]",4.8
+357,9788087391525,Krása nesmírná,Irina Karnauchovová,"Literatura světová, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Československý spisovatel'}]",4.7
+73,9788072922437,Červená čepička a jiné pohádky,Ivana Kocmanová,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Axióma'}]",4.6
+262,9788000027562,Harry Potter a Kámen mudrců,J. K. Rowling,"Literatura světová, Fantasy, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.7
+200,9788000044293,Harry Potter a prokleté dítě. Část první a druhá (speciální vydání pracovního scénáře),Jack Thorne,"Divadelní hry, Fantasy, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,2016,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",3.7
+347,,Anička z I. A,Jan Ryska,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Erika'}]",3.9
+364,9788000011219,Fimfárum,Jan Werich,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.7
+254,9788025346501,Lucinka a pohár trpělivosti,Jana Hlavatá,"Literatura česká, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Fragment (CZ)'}]",5.0
+79,9788076501836,Zvířecí škola,Jana Nováková,"Literatura česká, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,2020,"[{'@type': 'Organization', 'name': 'Pointa'}]",4.1
+367,9788087021590,Krkonošské pohádky,Jaromír Jech,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'XYZ (CZ)'}]",3.8
+149,9788000039534,Rákosníček a rybník,Jaromír Kincl,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.7
+349,,"Mahulena, krásná panna","Jaroslav Seifert, Božena Němcová","Literatura česká, Pro děti a mládež, Pohádky",16,Police 16: Dětská literatura & Pohádky,,,0.0
+341,,Vzpoura na lodi Primátor Dittrich,"Jaroslav Žák, Vlastimil Rada",Dětské,16,Police 16: Dětská literatura & Pohádky,,,0.0
+190,9788073093099,Mysli! Holce přece nemůžeš říkat vole!,Jean-Louis Fournier,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Levné knihy'}]",4.1
+248,9788000022253,Deník malého poseroutky,Jeff Kinney,"Literatura světová, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.3
+247,9788074470943,Ošklivá pravda,Jeff Kinney,"Literatura světová, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'CooBoo'}]",4.4
+246,9788074470592,Psí život,Jeff Kinney,"Literatura světová, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,2011,"[{'@type': 'Organization', 'name': 'CooBoo'}]",4.4
+90,9788086631585,Pohádky z Kampy,Jindřiška Smetanová,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Sláfka (Slávka Kopecká)'}]",4.2
+366,9788024237763,Český Honza,Jiří Horák,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.6
+165,9788000064864,Včelí medvídci od jara do zimy,Jiří Kahoun,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.7
+136,8085775603,Moje první čítanka,Jiří Žáček,"Učebnice a slovníky, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Alter'}]",4.6
+86,9788024228402,Veselé Vánoce,Jiří Žáček,"Literatura česká, Pohádky a bajky, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.8
+72,9788088001201,Strašidlování na Vinohradech a okolí s letmými dotyky Žižkova,"Jiří Žáček, Pavel Vrána","Literatura česká, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Tereza Zatřepálková'}]",5.0
+361,9788086144979,Hrajeme si rádi a s vtipem,Joachim Löffel,,16,Police 16: Dětská literatura & Pohádky,,,0.0
+65,9788072364169,Nejznámější pohádky - učíme se anglicky,Joanna Zarańska,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Jan Vašut (Vašut)'}]",4.0
+342,9788000070223,"Heidi, děvčátko z hor (převyprávění)","Johanna Spyriová, Bohumil Říha","Literatura světová, Romány, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.7
+135,8000002000,Ladovy veselé učebnice - Savci,"Josef Lada, Ladislav Stehlík","Literatura česká, Pro děti a mládež, Encyklopedie",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.6
+92,9788073470456,Koník Hvězdička,Ján Vrabec,"Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Knižní expres'}]",4.3
+241,9788025321539,Deník rebelky - Moje trapný dvojče,Karen McCombie,"Pro děti a mládež, Dívčí romány",16,Police 16: Dětská literatura & Pohádky,2014,"[{'@type': 'Organization', 'name': 'Fragment (CZ)'}]",4.2
+150,9788071727729,Nevšední příběhy pro zvídavé kluky a holky 3,Katarína Kernová,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Advent-Orion'}]",4.7
+327,,Pojdte s námi do pohádky...,Kolektiv autorů,Pohádky,16,Police 16: Dětská literatura & Pohádky,,,0.0
+387,9788074230875,Vše se mění,Lauren Brooke,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Stabenfeldt'}]",4.9
+71,9788090673045,Úžasný Bůh: 100 povídání o Bohu a o vědě,"Louie Giglio, Tama Fortner","Náboženství, Pro děti a mládež, Encyklopedie",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Evangelizační centrum M.I.S.E.'}]",4.7
+78,9788072922413,"Nauč mě mluvit - 500 slov, říkadla, pohádky",Luboš Huml,"Literatura naučná, Pro děti a mládež, Encyklopedie",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Axióma'}]",4.6
+152,9788000057880,Sesterstvo ve Snové říši,Lucie Hlavinková,"Literatura česká, Fantasy, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,2020,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.3
+255,8071461768,Tomáš a Alice v přírodě,Marcel Marlier,"Literatura světová, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Slovart Print'}]",5.0
+176,9788090366909,Zrzoun ( Hrdina dvou světů ),Marcella Marboe-Hrabincová,Pohádky a bajky,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'PeLe'}]",4.7
+87,9788090692749,Pohádky z Třebíče a okolí,Marie Špačková,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'vlastním nákladem (CZ)'}]",3.4
+76,9788073210755,Pohádky pro krásné sny,"Marion Krätschmer, Ursula Muhr",,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Fortuna Print'}]",3.8
+338,9788000006581,Dobrodružství Toma Sawyera,Mark Twain,"Literatura světová, Romány, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.4
+397,,Knížka pro děti do auta,Martin Gato,,16,Police 16: Dětská literatura & Pohádky,,,0.0
+179,9788000047348,České dějiny očima Psa,Martina Drijverová,"Literatura naučná, Historie, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",3.9
+146,9788025300664,Výprava do deštného pralesa,Mary Pope Osborne,"Dobrodružné, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,,4.4
+354,8071341479,Turtles - Hrdinové z podzemí,Maureen Spurgeon,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Alicanto (Egmont ČR)'}]",4.2
+70,9788072921355,"Slovo, slovíčko, otevři se maličko",Michal Černík,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Axióma'}]",4.8
+91,9788027101382,Krátké pohádky na dobrou noc,"Milada Kudrnová, Jan Zíma","Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,2017,"[{'@type': 'Organization', 'name': 'Bambook'}]",2.1
+88,9788024218397,"Česká říkadla, písničky a pohádky",Milada Motlová,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.5
+156,9788020422552,Pohádky,Miloš Macourek,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Mladá fronta'}]",4.8
+98,9788024223247,Výpravy za dobrodružstvím,Miloš Zapletal,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.8
+117,9788073527099,Prozkoumejte oceán!,Nathalie Valliére,"Pro děti a mládež, Encyklopedie",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",3.8
+344,9788075673930,Staré řecké báje a pověsti,"Niklíčková, Alexandra,Bauer, Petr",Literatura pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,,0.0
+95,9788087391730,Brunclík a lev,Oldřich Sirovátka,"Literatura česká, Pro děti a mládež, Pověsti",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Československý spisovatel'}]",4.4
+392,9788088317913,Cyklovýlety zážitkový deník,Pavla Ovčáčíková,Literatura pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,,0.0
+125,9788076170902,Ema a kouzelná kniha,Petra Braunová,"Literatura česká, Fantasy, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Pikola'}]",4.2
+360,9783625190158,Na výletní lodi,Philip Kiefer,,16,Police 16: Dětská literatura & Pohádky,,,0.0
+234,9788000028385,Klářino trápení,Pia Hagmar,"Literatura světová, Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.1
+237,9788024240350,(Ne)obyčejný kluk,Raquel J. Palacio,"Literatura světová, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,2013,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.6
+130,9788025601952,Zábavné výtvarné nápady,"Rebecca Gilpin, Leonie Pratt","Pro děti a mládež, Šikovné děti - tvoření, hry, styl",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",5.0
+390,9788000002248,Mikulášovy patálie,René Goscinny,"Literatura světová, Humor, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.7
+251,9788024256696,Matylda,Roald Dahl,"Literatura světová, Romány, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.6
+114,9788074321474,Jaro - Obrázkové příběhy,Rotraut Susanne Berner,"Literatura světová, Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.9
+113,9788074321481,Léto - Obrázkové příběhy,Rotraut Susanne Berner,"Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.9
+115,9788074323102,Podzim - Obrázkové příběhy,Rotraut Susanne Berner,"Encyklopedie, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.9
+116,9788074323119,Zima - Obrázkové příběhy,Rotraut Susanne Berner,"Literatura světová, Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Paseka'}]",4.9
+348,9788074060564,Tři malá prasátka,"Sharon Yates, Julie Hawksley","Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': ""Reader's Digest Výběr (CZ)""}]",5.0
+172,9788025320969,Našlo se koťátko!,Sue Mongredien,"Literatura světová, Příroda, zvířata, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Fragment (CZ)'}]",4.5
+140,9788025357415,Strašidelný obchod,Thomas Brezina,"Literatura světová, Detektivky, krimi, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,2022,"[{'@type': 'Organization', 'name': 'Fragment (CZ)'}]",4.5
+186,9788025224267,Jak rozeznat holinky od hodinek,Tracey Turner,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Alicanto (Egmont ČR)'}]",4.2
+396,9788025342893,Zpívání,"Uhlíř, Svěrák",Dětské,16,Police 16: Dětská literatura & Pohádky,,,0.0
+362,9788025603123,Praktická příprava do školy,V. Svojtka & Co.,Literatura pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,,0.0
+67,9788000061696,Kubula a Kuba Kubikula / Malá čarodějnice,"Vladislav Vančura, Otfried Preussler","Literatura světová, Literatura česká, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.2
+94,9788000039244,Říkání o víle Amálce,Václav Čtvrtek,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.4
+380,9788000001135,"Vařím, vaříš, vaříme","Věra Šalamounová, Libuše Prokopová","Kuchařky, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}]",4.9
+384,9788025601686,Popelka,Walt Disney,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",4.6
+363,9788025605677,Copánky a náramky,Watt Fiona,Výroba šperků,16,Police 16: Dětská literatura & Pohádky,,,0.0
+96,9788073760168,Pohádky pro dobrodruhy,"Zdeněk Šmíd, Markéta Vydrová","Humor, Literatura česká",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Olympia'}]",4.5
+355,9788000014364,Nejkrásnější pohádky,Zuzana Kovaříková,Pohádky,16,Police 16: Dětská literatura & Pohádky,,,0.0
+252,9788027104093,Abeceda v hádankách,Zuzana Pospíšilová,"Literatura naučná, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,2017,"[{'@type': 'Organization', 'name': 'Bambook'}]",4.7
+89,9788024744728,Zlobivé pohádky,Zuzana Pospíšilová,"Literatura česká, Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,2014,"[{'@type': 'Organization', 'name': 'Bambook'}]",4.2
+253,9788026209348,Záhada školní půdy,Zuzana Pospíšilová,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Portál'}]",4.4
+385,9788072283811,Můj první slovník,bez autora,Děti,16,Police 16: Dětská literatura & Pohádky,,,0.0
+395,9788072371167,Abeceda - Píšeme snadno a zábavně od A do Z,kolektiv autorů,"Pro děti a mládež, Šikovné děti - tvoření, hry, styl",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",3.9
+119,9788075442246,"Já, JůTuber 1-3 (box)",kolektiv autorů,"Hobby, Pro děti a mládež",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'CooBoo'}]",1.8
+97,9788025616789,Sbírka pohádek pro 2leté děti,kolektiv autorů,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,2015,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",4.5
+178,9788072402816,Slova,kolektiv autorů,"Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'INFOA'}]",5.0
+160,9788072379682,Velká pokladnice pohádek,kolektiv autorů,"Pro děti a mládež, Pohádky a bajky",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",4.0
+173,9788025313121,Kniha pro bezva kluky – Jak vždycky vyhrát,neznámý - neuveden,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Fragment (CZ)'}]",2.6
+297,9788073716127,Knížka pro chytré batole - Poznáváme čísla,neznámý - neuveden,"Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Sun'}]",0.0
+124,9788024221526,Nápadník pro šikovné holky,neznámý - neuveden,"Pro děti a mládež, Šikovné děti - tvoření, hry, styl",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Knižní klub'}]",4.8
+155,9788025602010,Příběhy ze školy a jiná dobrodružství,neznámý - neuveden,"Pro děti a mládež, Příběhy",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Svojtka & Co.'}]",4.4
+103,9788020424471,Příručka mladé jezdkyně,neznámý - neuveden,Pro děti a mládež,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Albatros (CZ)'}, {'@type': 'Organization', 'name': 'Mladá fronta'}]",0.0
+102,9788074510335,Rok na statku,neznámý - neuveden,Pro nejmenší,16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'J. Otto - Ottovo nakladatelství'}]",4.4
+122,9788072671243,Velká kniha říkadel,neznámý - neuveden,"Poezie, Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Junior (CZ)'}]",4.0
+123,9788072671243,Velká kniha říkadel,neznámý - neuveden,"Poezie, Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Junior (CZ)'}]",4.0
+162,9788072671243,Velká kniha říkadel,neznámý - neuveden,"Poezie, Pro děti a mládež, Pro nejmenší",16,Police 16: Dětská literatura & Pohádky,,"[{'@type': 'Organization', 'name': 'Junior (CZ)'}]",4.0
+365,9783867758574,365 příběhů na dobrou noc,ngrid Annel,,16,Police 16: Dětská literatura & Pohádky,,,0.0

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Knihovna - Správa a uspořádání do 16 poliček</title>
+  <meta name="description" content="Chytrá správa domácí knihovny se 16 poličkami, skenerem čárových kódů ISBN a automatickou organizací.">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylopisy aplikace -->
+  <link rel="stylesheet" href="/static/css/main.css?v=2">
+  <link rel="stylesheet" href="/static/css/shelves.css?v=2">
+  <link rel="stylesheet" href="/static/css/scanner.css?v=2">
+  <link rel="stylesheet" href="/static/css/modal.css?v=2">
+
+  <!-- Externí knihovny z CDN pro spolehlivé skenování čárových kódů a QR kód mobilního propojení -->
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- Horní navigační lišta -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-icon">📚</div>
+        <div class="brand-text">
+          <h1>Knihovna</h1>
+          <p>Inteligentní správa a řazení do 16 poliček (~500 knih)</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button id="btn-scan-book" class="btn btn-primary" onclick="App.openScannerModal()">
+          <span>📷</span> Naskenovat knihu
+        </button>
+        <button id="btn-add-manual" class="btn btn-secondary" onclick="Books.openAddBookModal()">
+          <span>➕</span> Přidat ručně
+        </button>
+        <button id="btn-auto-organize" class="btn btn-accent" onclick="App.runAutoOrganize()" title="Vyvážit zaplnění všech polic podle kapacity a žánrů">
+          <span>✨</span> Uspořádat knihovnu
+        </button>
+        <button id="btn-mobile-connect" class="btn btn-secondary" onclick="App.openMobileConnectModal()" title="Otevřít v telefonu pro skenování mobilem">
+          <span>📱</span> Mobilní skener
+        </button>
+        <button id="btn-export-csv" class="btn btn-secondary" onclick="App.exportData('csv')" title="Exportovat seznam knih do CSV">
+          <span>💾</span> Export
+        </button>
+        <button id="btn-seed-data" class="btn btn-secondary" onclick="App.seedSampleData()" title="Znovu načíst ukázkové knihy">
+          <span>🎲</span> Ukázky
+        </button>
+      </div>
+    </header>
+
+    <!-- Přehledové statistiky -->
+    <section class="dashboard-bar">
+      <div class="stat-card">
+        <div class="stat-icon" style="color: #6366f1;">📖</div>
+        <div class="stat-content">
+          <div class="stat-val" id="stat-total-books">0</div>
+          <div class="stat-lbl">Celkem evidovaných knih</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon" style="color: #06b6d4;">🏛️</div>
+        <div class="stat-content">
+          <div class="stat-val">16</div>
+          <div class="stat-lbl">Tematických poliček</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon" style="color: #10b981;">📦</div>
+        <div class="stat-content">
+          <div class="stat-val" id="stat-total-capacity">640</div>
+          <div class="stat-lbl">Maximální kapacita (30–40 / police)</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon" style="color: #f59e0b;">📊</div>
+        <div class="stat-content">
+          <div class="stat-val" id="stat-occupancy-rate">0 %</div>
+          <div class="stat-lbl">Míra zaplnění knihovny</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ovládací panel vyhledávání a přepínač zobrazení -->
+    <section class="controls-panel" id="controls-panel">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" class="search-input" placeholder="Hledat podle názvu, autora, žánru nebo ISBN...">
+      </div>
+
+      <div class="view-tabs">
+        <button class="tab-btn active" data-tab="shelves" onclick="App.switchTab('shelves')">
+          <span>🏛️</span> Mřížka 16 poliček
+        </button>
+        <button class="tab-btn" data-tab="catalog" onclick="App.switchTab('catalog')">
+          <span>📑</span> Katalog knih
+        </button>
+      </div>
+    </section>
+
+    <!-- Hlavní obsah: Mřížka 16 polic -->
+    <main>
+      <div id="shelves-grid-container" class="shelves-grid">
+        <!-- Police budou dynamicky načteny přes shelves.js -->
+        <div class="empty-state" style="grid-column: 1 / -1; text-align: center; padding: 3rem; color: var(--text-muted);">
+          Načítám police knihovny...
+        </div>
+      </div>
+
+      <!-- Detail konkrétní otevřené police (skrytý ve výchozím stavu) -->
+      <div id="shelf-detail-view" class="shelf-detail-view" style="display: none;"></div>
+
+      <!-- Katalogové zobrazení všech knih (skryté ve výchozím stavu) -->
+      <div id="catalog-view-container" style="display: none;"></div>
+    </main>
+
+  </div>
+
+  <!-- ================= MODÁLNÍ DIALOGY ================= -->
+
+  <!-- 1. Modál: Kamerový skener čárových kódů & ISBN -->
+  <div class="modal-overlay" id="modal-scanner">
+    <div class="modal-window" style="max-width: 520px;">
+      <div class="modal-header">
+        <h3><span>📷</span> Skener čárových kódů knihy</h3>
+        <button class="modal-close-btn" onclick="App.closeModal('modal-scanner')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="scanner-view-container">
+
+          <!-- Skrytý input pro vyfocení čárového kódu fotoaparátem (funguje na každém mobilu i bez HTTPS!) -->
+          <input type="file" id="barcode-file-input" accept="image/*" capture="environment" style="display: none;" onchange="Scanner.handlePhotoFile(event)">
+
+          <!-- Upozornění pro nezabezpečené HTTP spojení na telefonu -->
+          <div id="scanner-http-notice" style="display: none; background: rgba(99, 102, 241, 0.15); border: 1px solid var(--border-active); border-radius: var(--radius-md); padding: 0.85rem; font-size: 0.85rem; color: #cbd5e1; width: 100%;">
+            📱 <strong>Tip pro mobil:</strong> Váš prohlížeč blokuje živé video na nezabezpečeném spojení. Klikněte na <strong>„Vyfotit čárový kód fotoaparátem“</strong> níže – to otevře fotoaparát přímo a funguje spolehlivě!
+          </div>
+
+          <div class="camera-frame-wrap">
+            <div id="reader"></div>
+            <video id="scanner-video" playsinline style="display: none;"></video>
+            <div class="scanner-overlay">
+              <div class="scanner-target-box">
+                <span class="scanner-corner corner-tl"></span>
+                <span class="scanner-corner corner-tr"></span>
+                <span class="scanner-corner corner-bl"></span>
+                <span class="scanner-corner corner-br"></span>
+                <div class="scanner-laser"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="scanner-controls" style="display: flex; flex-direction: column; width: 100%; gap: 0.6rem;">
+            <button class="btn btn-primary" id="btn-snap-photo" onclick="Scanner.triggerPhotoCapture()" style="width: 100%; padding: 0.8rem 1rem; font-size: 0.95rem; background: linear-gradient(135deg, #0284c7, #6366f1); box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);">
+              📸 Vyfotit čárový kód fotoaparátem
+            </button>
+            <button class="btn btn-secondary" id="btn-switch-cam" onclick="Scanner.switchCamera()">
+              🔄 Přepnout kameru
+            </button>
+          </div>
+
+          <p style="font-size: 0.82rem; color: var(--text-muted); text-align: center;">
+            Namiřte na čárový kód (ISBN / EAN) na zadní straně knihy nebo jej vyfoťte.
+          </p>
+
+          <!-- Ruční zadání pro případ bez kamery -->
+          <div style="width: 100%; border-top: 1px solid var(--border-subtle); padding-top: 1rem;">
+            <label style="font-size: 0.8rem; color: var(--text-dim); display: block; margin-bottom: 0.4rem;">Nebo zadejte kód ručně:</label>
+            <div class="manual-isbn-bar">
+              <input type="text" id="manual-isbn-input" placeholder="např. 9788025725658">
+              <button id="btn-manual-lookup" class="btn btn-primary">Vyhledat</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Modál: Přidání / Editace knihy -->
+  <div class="modal-overlay" id="modal-add-book">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3 id="add-book-modal-title"><span>📖</span> Přidat novou knihu</h3>
+        <button class="modal-close-btn" onclick="App.closeModal('modal-add-book')">&times;</button>
+      </div>
+      <form id="add-book-form">
+        <div class="modal-body">
+          <input type="hidden" id="add-book-id">
+
+          <!-- Doporučená police (zobrazeno po dohledání ISBN) -->
+          <div id="add-shelf-suggestion" class="shelf-suggestion-badge" style="display: none; margin-bottom: 0.5rem;"></div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="add-book-isbn">ISBN / EAN</label>
+              <input type="text" id="add-book-isbn" placeholder="978-80-...">
+            </div>
+            <div class="form-group">
+              <label for="add-book-shelf">Umístění v polici *</label>
+              <select id="add-book-shelf" required></select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="add-book-title">Název knihy *</label>
+            <input type="text" id="add-book-title" required placeholder="např. Duna">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="add-book-author">Autor *</label>
+              <input type="text" id="add-book-author" required placeholder="např. Frank Herbert">
+            </div>
+            <div class="form-group">
+              <label for="add-book-publisher">Nakladatelství</label>
+              <input type="text" id="add-book-publisher" placeholder="např. Baronet">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="add-book-year">Rok vydání</label>
+              <input type="number" id="add-book-year" placeholder="2021">
+            </div>
+            <div class="form-group">
+              <label for="add-book-pages">Počet stran</label>
+              <input type="number" id="add-book-pages" placeholder="580">
+            </div>
+            <div class="form-group">
+              <label for="add-book-rating">Hodnocení (0–5)</label>
+              <input type="number" step="0.1" min="0" max="5" id="add-book-rating" placeholder="4.8">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="add-book-genres">Žánry (oddělené čárkou)</label>
+            <input type="text" id="add-book-genres" placeholder="Sci-Fi, Vesmír, Světová literatura">
+          </div>
+
+          <div class="form-group">
+            <label for="add-book-cover">URL adresa obálky</label>
+            <input type="url" id="add-book-cover" placeholder="https://...">
+          </div>
+
+          <div class="form-group">
+            <label for="add-book-desc">Popis knihy</label>
+            <textarea id="add-book-desc" placeholder="Stručný děj nebo anotace..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="add-book-notes">Osobní poznámky / stav</label>
+            <input type="text" id="add-book-notes" placeholder="Přečteno, darováno, oblíbené...">
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="App.closeModal('modal-add-book')">Zrušit</button>
+          <button type="submit" class="btn btn-primary">💾 Uložit do knihovny</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 3. Modál: Detail knihy s možností přesunu a smazání -->
+  <div class="modal-overlay" id="modal-book-detail">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3 id="detail-book-title">Detail knihy</h3>
+        <button class="modal-close-btn" onclick="App.closeModal('modal-book-detail')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="book-detail-grid">
+          <div class="book-detail-cover" id="detail-book-cover"></div>
+          <div class="book-detail-fields">
+            <div class="meta-item">
+              <span class="meta-label">Autor:</span>
+              <span class="meta-val" id="detail-book-author" style="font-weight: 700;"></span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">ISBN:</span>
+              <span class="meta-val" id="detail-book-isbn"></span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Nakladatel:</span>
+              <span class="meta-val" id="detail-book-publisher"></span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Rok:</span>
+              <span class="meta-val" id="detail-book-year"></span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Rozsah:</span>
+              <span class="meta-val" id="detail-book-pages"></span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Hodnocení:</span>
+              <span class="meta-val" id="detail-book-rating" style="color: #fbbf24;"></span>
+            </div>
+            <div class="meta-item" style="align-items: center;">
+              <span class="meta-label">Žánry:</span>
+              <div id="detail-book-genres" style="display: flex; flex-wrap: wrap; gap: 0.3rem;"></div>
+            </div>
+            <div class="form-group" style="margin-top: 0.5rem;">
+              <label for="detail-book-shelf-select">Polička (přesunout knihu):</label>
+              <div style="display: flex; gap: 0.5rem;">
+                <select id="detail-book-shelf-select"></select>
+                <button class="btn btn-secondary" onclick="Books.moveCurrentBookShelf()">Přesunout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="border-top: 1px solid var(--border-subtle); padding-top: 1rem; margin-top: 0.5rem;">
+          <h4 style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.4rem;">Anotace:</h4>
+          <p id="detail-book-desc" style="font-size: 0.88rem; color: #cbd5e1; line-height: 1.6;"></p>
+        </div>
+      </div>
+      <div class="modal-footer" style="justify-content: space-between;">
+        <button class="btn btn-danger" onclick="Books.deleteCurrentBook()">🗑️ Smazat knihu</button>
+        <button class="btn btn-secondary" onclick="App.closeModal('modal-book-detail')">Zavřít</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Modál: Úprava police -->
+  <div class="modal-overlay" id="modal-shelf-edit">
+    <div class="modal-window" style="max-width: 500px;">
+      <div class="modal-header">
+        <h3><span>⚙️</span> Nastavení police</h3>
+        <button class="modal-close-btn" onclick="App.closeModal('modal-shelf-edit')">&times;</button>
+      </div>
+      <form id="shelf-edit-form">
+        <div class="modal-body">
+          <input type="hidden" id="edit-shelf-id">
+          <div class="form-group">
+            <label for="edit-shelf-name">Název police</label>
+            <input type="text" id="edit-shelf-name" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="edit-shelf-theme">Téma / Žánr</label>
+              <input type="text" id="edit-shelf-theme" required>
+            </div>
+            <div class="form-group">
+              <label for="edit-shelf-icon">Ikona (emoji)</label>
+              <input type="text" id="edit-shelf-icon" style="font-size: 1.2rem; text-align: center;">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="edit-shelf-color">Barva akcentu</label>
+              <input type="color" id="edit-shelf-color" style="height: 42px; padding: 2px;">
+            </div>
+            <div class="form-group">
+              <label for="edit-shelf-max">Max. kapacita knih</label>
+              <input type="number" id="edit-shelf-max" min="10" max="60">
+            </div>
+          </div>
+          <input type="hidden" id="edit-shelf-min">
+          <div class="form-group">
+            <label for="edit-shelf-notes">Poznámka / popis kategorie</label>
+            <textarea id="edit-shelf-notes"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="App.closeModal('modal-shelf-edit')">Zrušit</button>
+          <button type="submit" class="btn btn-primary">Uložit nastavení</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 5. Modál: Mobilní připojení (LAN QR kód) -->
+  <div class="modal-overlay" id="modal-mobile-connect">
+    <div class="modal-window" style="max-width: 460px;">
+      <div class="modal-header">
+        <h3><span>📱</span> Skenování mobilem</h3>
+        <button class="modal-close-btn" onclick="App.closeModal('modal-mobile-connect')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="lan-qr-container">
+          <div class="view-tabs" style="width: 100%; justify-content: center; margin-bottom: 0.25rem;">
+            <button class="tab-btn active" id="tab-connect-http" onclick="App.showMobileUrlMode('http')">⚡ Běžné (HTTP)</button>
+            <button class="tab-btn" id="tab-connect-https" onclick="App.showMobileUrlMode('https')">🔒 Zabezpečené (HTTPS)</button>
+          </div>
+
+          <p id="lan-mode-hint" style="font-size: 0.85rem; color: var(--text-muted); text-align: center;">
+            Naskenujte kód fotoaparátem telefonu (musí být na stejné Wi-Fi síti):
+          </p>
+
+          <div id="lan-qr-canvas"></div>
+
+          <div class="lan-url-display">
+            <span id="lan-url-text">http://...</span>
+            <button class="btn btn-secondary btn-icon-only" onclick="App.copyMobileUrl()" title="Zkopírovat odkaz">📋</button>
+          </div>
+
+          <div id="lan-mode-expl" style="font-size: 0.8rem; color: var(--text-dim); text-align: center; line-height: 1.4;">
+            ✨ <strong>Na HTTP</strong> použijte ve skeneru tlačítko <em>„Vyfotit čárový kód fotoaparátem“</em>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Modál: Zpráva o automatickém uspořádání -->
+  <div class="modal-overlay" id="modal-organize-report">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3><span>✨</span> Výsledek uspořádání knihovny</h3>
+        <button class="modal-close-btn" onclick="App.closeModal('modal-organize-report')">&times;</button>
+      </div>
+      <div class="modal-body" id="organize-report-content"></div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="App.closeModal('modal-organize-report')">Rozumím</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast kontejner pro notifikace -->
+  <div id="toast-container"></div>
+
+  <!-- Skripty aplikace -->
+  <script src="/static/js/api.js?v=2"></script>
+  <script src="/static/js/scanner.js?v=2"></script>
+  <script src="/static/js/shelves.js?v=2"></script>
+  <script src="/static/js/books.js?v=2"></script>
+  <script src="/static/js/app.js?v=2"></script>
+
+</body>
+</html>
